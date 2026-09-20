@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("WELCOME TO PAYFLOW");
+        System.out.println("======WELCOME TO PAYFLOW======\n");
         System.out.println("Enter customer name: ");
         String customerName = sc.nextLine();
 
@@ -17,12 +17,6 @@ public class Main {
 
         Payment p1 = new Payment(customerName, upiId, amount);
         p1.displayPaymentDetails();
-
-
-
-
-
-
 
 
     }
